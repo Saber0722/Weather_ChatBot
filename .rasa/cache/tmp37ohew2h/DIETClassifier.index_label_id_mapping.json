@@ -1,0 +1,9 @@
+{
+  "0": "ask_time",
+  "1": "ask_time_weather",
+  "2": "ask_weather",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "inform",
+  "6": "thank_you"
+}

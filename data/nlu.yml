@@ -1,0 +1,82 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - sup
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: thank_you
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - thank you very much
+    - I appreciate it
+    - thanks for your help
+    - thanks for the info
+    - many thanks
+    - I am grateful
+    - arigato
+
+- intent: inform
+  examples: |
+    - [London](location)
+    - [Paris](location)
+    - [New York](location)
+    - [Berlin](location)
+    - [Tokyo](location)
+    - [Toronto](location)
+    - [Mumbai](location)
+    - [Sydney](location)
+    - [Rome](location)
+    - [San Francisco](location)
+
+- intent: ask_weather
+  examples: |
+    - what is the weather like in [London](location)?
+    - how is the weather in [New York](location)?
+    - tell me the weather in [Paris](location)
+    - what is the temperature in [Tokyo](location)?
+    - how's the weather in [Berlin](location)?
+    - what's the forecast for [Sydney](location)?
+    - weather in [Los Angeles](location)
+    - show me the weather in [San Francisco](location)
+    - give me the weather in [Toronto](location)
+    - will it rain in [London](location)?
+    - is it sunny in [New York](location)?
+    - is it cloudy in [Berlin](location)?
+    - can you give me the forecast for [Rome](location)?
+    - is it cold in [Hyderabad](location)?
+    - what's the weather like today?
+    - current weather
+    - is it hot outside?
+    - is it going to rain?
+    - check weather in [Mumbai](location)
+    - how's the temperature in [Sydney](location)?
+    - [Boston](location) weather
+    - [Chicago](location)
+
